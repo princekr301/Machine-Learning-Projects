@@ -1,0 +1,23 @@
+What are Recommender Systems ?
+A recommendation system (or recommender system) is a class of machine learning that uses data to help predict, narrow down,
+and find what people are looking for among an exponentially growing number of options.
+
+A recommendation system is an artificial intelligence or AI algorithm, usually associated with machine learning,
+that uses Big Data to suggest or recommend additional products to consumers. These can be based on various criteria,
+including past purchases, search history, demographic information, and other factors. Recommender systems are highly 
+useful as they help users discover products and services they might otherwise have not found on their own.
+
+Type of Recommender Systems
+1. Content based System
+A Content-Based Recommender works by the data that we take from the user, either explicitly (rating) or 
+implicitly (clicking on a link). By the data we create a user profile, which is then used to suggest to the user,
+as the user provides more input or take more actions on the recommendation, the engine becomes more accurate.
+
+2. Collabrative filter base System
+Collaborative filtering algorithms recommend items (this is the filtering part) based on preference information 
+from many users (this is the collaborative part). This approach uses similarity of user preference behavior, 
+given previous interactions between users and items, recommender algorithms learn to predict future interaction.
+
+3. Hybrid Recommender System
+Hybrid recommender systems combine the advantages of the types above to create a more comprehensive recommending system.
+
