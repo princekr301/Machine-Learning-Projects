@@ -1,0 +1,33 @@
+Spam messages are messages sent to a large group of recipients without their prior consent, typically advertising for goods and services or business opportunities.
+
+In the recent period, the percentage of scam messages amongst spam have increased sharply. Scam messages typically trick people into giving away money or personal details by offering an attractive or false deal. Based on the statistics from the Singapore Police Force, from January till June 2020, the amount cheated through scams have increased by more than S$8 million!
+
+A spam message classification is a step towards building a tool for scam message identification and early scam detection.
+
+
+Photo by Markus Winkler on Unsplash.
+Dataset
+
+The dataset is from Kaggle, a collection of spam SMS messages, with 5572 messages, all classified as either ‘ham’ or ‘spam’ . The dataset contains 13.4% spam and 86.6% ham.
+
+Methodology
+
+The methodology is divided into
+
+Data Pre-processing and Exploratory Data Analysis
+Model Training, Comparison and Selection
+Model Evaluation
+Data Pre-processing
+
+
+Text shown after Word-Tokenize step, image by author.
+
+Same text shown after subsequent pre-processing steps, image by author.
+With the help of the NLTK package, every message is word-tokenized. Conversion to lower case is carried out, punctuation is removed except exclamation mark, stopwords and words containing digits are removed too.
+
+The example above shows a ‘cleaned’ message after all pre-processing steps.
+
+Exploratory Data Analysis
+
+The top 20 words used in spam and ham messages are illustrated using horizontal bar plots.
+
